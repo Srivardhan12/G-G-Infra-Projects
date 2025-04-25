@@ -15,17 +15,14 @@ export default function AboutClients() {
                 <h3 className="font-bold text-2xl mt-32 mb-8">Certified by</h3>
                 <div className="flex justify-around">
                     <div>
-                        {/* <img src="/images/iso.png" alt="ISO" className="w-1/2 mx-auto" /> */}
-                        <p className="font-semibold text-md">ISO 9001:2023-24 Certificated</p>
+                        <p className="font-semibold text-md py-2"><span className="border-b-2 border-primary-blue-100">ISO 9001</span>:2023-24 Certificated</p>
                     </div>
                     <div>
-                        {/* <img src="/images/iso.png" alt="ISO" className="w-1/2 mx-auto" /> */}
-                        <p className="font-semibold text-md">E - Stac</p>
+                        <p className="font-semibold text-md mb-3 border-b-2 px-2 border-primary-blue-100 w-fit mx-auto">E - Stac</p>
                         <p className="text-sm">(Electrical-Supervisor Training & Certification)</p>
                     </div>
                     <div>
-                        {/* <img src="/images/iso.png" alt="ISO" className="w-1/2 mx-auto" /> */}
-                        <p className="font-semibold text-md">H - Stac</p>
+                        <p className="font-semibold text-md mb-3 border-b-2 px-2 border-primary-blue-100 w-fit mx-auto">H - Stac</p>
                         <p className="text-sm">(Height-Supervisor Training & Certification)</p>
                     </div>
                 </div>
