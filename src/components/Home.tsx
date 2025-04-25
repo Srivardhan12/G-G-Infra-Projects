@@ -8,7 +8,7 @@ export default function Home() {
                 <p className="text-primary-blue-100 font-bold text-xl p-5">G&G</p>
             </div>
             <div className="text-center w-1/2 mt-44">
-                <h1 className="text-4xl font-bold underline decoration-primary-blue-100"><span className="c-100">G&G</span> Infra Projects</h1>
+                <h1 className="text-4xl font-bold underline decoration-primary-blue-100 uppercase"><span className="c-100">G&G</span> Infra Projects</h1>
                 <p className="font-semibold text-md mt-7">Your trusted partner in telecom <br /> infrastructure solutions.</p>
             </div>
             <div>
