@@ -12,7 +12,7 @@ import OandM from './components/OandM';
 function App() {
   return (
     <Router>
-      <div className="w-full min-h-screen flex flex-col">
+      <div className="w-full flex flex-col">
         {/* Navbar shown only on certain pages */}
         <Routes>
           <Route path="/" element={

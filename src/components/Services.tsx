@@ -37,7 +37,7 @@ export default function Services() {
     return (
         <div className="flex flex-col items-center mt-20">
             <h3 className="text-3xl font-bold uppercase">Our Services</h3>
-            <div className="flex gap-52">
+            <div className="sm:flex gap-52">
                 <div className="mt-10 flex flex-col">
                     <h4 className="font-semibold text-xl py-2 rounded bg-primary-blue-100 text-primary-black-100 text-center mb-2">Our Projects</h4>
                     {ourprojects.map((item, index) => (
