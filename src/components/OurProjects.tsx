@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
 import fiber from '../assets/fiber.png';
 import fibertohome from '../assets/fibertohome.png';
 import smallcellshosting from '../assets/smallcellshosting.png';
 
 export default function OurProjects() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     const ourprojects = [
         {
             title: "Small Cell Hosting",

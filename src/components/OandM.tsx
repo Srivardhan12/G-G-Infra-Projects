@@ -3,8 +3,14 @@ import preventivemaintenance from "../assets/preventiveImage.png";
 import sparemanagement from "../assets/sparemanagement.png";
 import installationcommissioning from "../assets/installation.png";
 import cow from "../assets/cow.png";
+import { useEffect } from "react";
 
 export default function OandM() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   const oandm = [
     {
       title: "Fault Management",
