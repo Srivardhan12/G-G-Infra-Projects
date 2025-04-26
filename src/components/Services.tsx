@@ -1,16 +1,61 @@
-import ServiceCard from "./ServiceCard";
+import { Link } from "react-router-dom"
+
+const ourprojects = [
+    {
+        title: "Small Cell Hosting",
+    },
+    {
+        title: "Fiber",
+    },
+    {
+        title: "FTTH (Fiber To The Home)",
+    }
+]
+
+const oandm = [
+    {
+        title: "Fault Management",
+    },
+    {
+        title: "Preventive Maintenance",
+    },
+    {
+        title: "Spare Management",
+    },
+    {
+        title: "Installation & Commissioning"
+    },
+    {
+        title: "Optical Fiber Cable"
+    },
+    {
+        title: "COW Site Maintenance"
+    }
+]
 
 export default function Services() {
     return (
         <div className="flex flex-col items-center mt-20">
             <h3 className="text-3xl font-bold uppercase">Our Services</h3>
-            <div className="flex flex-wrap gap-10 justify-center mt-10">
-                <ServiceCard title="Fault Management" desc="Our Telecom Services ensure seamless network performance through a structured approach: Detection, Diagnosis, Correlation, Restoration, and Resolution — minimizing downtime and optimizing communication infrastructure efficiency." />
-                <ServiceCard title="Preventive  Maintenance" desc="Our Preventive Maintenance services restore, replace, and protect network components, improving reliability, minimizing failures, and ensuring consistent telecom performance through expert procedures and proactive care." />
-                <ServiceCard title="Spare Management" desc="We deliver end-to-end telecom operations, from infrastructure setup to maintenance, logistics, and cost optimization, ensuring reliable connectivity, efficient service management, and seamless technology integration." />
-                <ServiceCard title="Installation & Commissioning" desc="We provide expert installation and commissioning of microwave links, ensuring seamless connectivity between outdoor antennas and indoor units with precise configuration, optimized performance, and reliable network integration." />
-                <ServiceCard title="O&M of Optical Fiber Cable" desc="We specialize in Optical Fiber Cable (OFC) maintenance, installation, and route management, ensuring high-speed, reliable network connectivity through expert engineering, site surveys, and precision execution." />
-                <ServiceCard title="COW Site Maintenance" desc="We provide COW (Cell on Wheels) deployment for emergency and temporary coverage, ensuring rapid network restoration, seamless connectivity, and reliable mobile communication in critical situations." />
+            <div className="flex gap-52">
+                <div className="mt-10 flex flex-col">
+                    <h4 className="font-semibold text-xl py-2 rounded bg-primary-blue-100 text-primary-black-100 text-center mb-2">Our Projects</h4>
+                    {ourprojects.map((item, index) => (
+                        <div key={index} className="">
+                            <p className="font-medium text-lg border-b pt-2 pb-1">{item.title}</p>
+                        </div>
+                    ))}
+                    <Link to="/ourprojects" className="text-center py-2 bg-primary-blue-400 mt-5 font-semibold text-md rounded">Know More<span className="font-bold ml-3">&rarr;</span></Link>
+                </div>
+                <div className="mt-10 flex flex-col">
+                    <h4 className="font-semibold text-xl py-2 rounded bg-primary-blue-100 text-primary-black-100 text-center mb-2">O&M</h4>
+                    {oandm.map((item, index) => (
+                        <div key={index} className="">
+                            <p className="font-medium text-lg border-b pt-2 pb-1">{item.title}</p>
+                        </div>
+                    ))}
+                    <Link to="/oandm" className="text-center py-2 bg-primary-blue-400 mt-5 font-semibold text-md rounded w-full">Know More<span className="font-bold ml-3">&rarr;</span></Link>
+                </div>
             </div>
         </div >
     )

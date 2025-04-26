@@ -13,15 +13,15 @@ export default function AboutClients() {
             </div>
             <div>
                 <h3 className="font-bold text-2xl mt-32 mb-8">Certified by</h3>
-                <div className="flex justify-around">
-                    <div>
+                <div className="flex flex-col items-center gap-7">
+                    <div className="border-b border-primary-black-100 w-fit">
                         <p className="font-semibold text-md py-2"><span className="border-b-2 border-primary-blue-100">ISO 9001</span>:2023-24 Certificated</p>
                     </div>
-                    <div>
+                    <div className="border-b border-primary-black-100 w-fit">
                         <p className="font-semibold text-md mb-3 border-b-2 px-2 border-primary-blue-100 w-fit mx-auto">E - Stac</p>
                         <p className="text-sm">(Electrical-Supervisor Training & Certification)</p>
                     </div>
-                    <div>
+                    <div className="border-b border-primary-black-100 w-fit">
                         <p className="font-semibold text-md mb-3 border-b-2 px-2 border-primary-blue-100 w-fit mx-auto">H - Stac</p>
                         <p className="text-sm">(Height-Supervisor Training & Certification)</p>
                     </div>

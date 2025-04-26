@@ -12,7 +12,7 @@ export default function Marquee(): React.ReactElement {
             <div className="animate-marquee flex gap-32">
                 {[...names, ...names].map((name, key) => (
                     <div key={key}>
-                        <div className="rounded-sm py-2.5 px-5 text-center font-semibold text-md bg-primary-blue-100 text-primary-white-100">
+                        <div className="rounded-sm py-2.5 px-5 text-center font-semibold text-md bg-primary-blue-400 text-primary-black-100">
                             {name.name}
                         </div>
                     </div>

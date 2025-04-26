@@ -1,11 +1,11 @@
-import ellipseOne from "./img/ellipse1.png"
-import ellipseTwo from "./img/ellipse2.png"
+import ellipseOne from "../assets/ellipse1.png"
+import ellipseTwo from "../assets/ellipse2.png"
 
 export default function Home() {
     return (
         <div className="relative overflow-hidden h-screen">
             <div>
-                <p className="text-primary-blue-100 font-bold text-xl p-5">G&G</p>
+                <p className="text-primary-black-100 font-bold text-xl p-5">G&G</p>
             </div>
             <div className="text-center w-1/2 mt-44">
                 <h1 className="text-4xl font-bold underline decoration-primary-blue-100 uppercase"><span className="c-100">G&G</span> Infra Projects</h1>
