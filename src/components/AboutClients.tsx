@@ -3,7 +3,7 @@ import Marquee from "./Marquee";
 export default function AboutClients() {
     return (
         <div className="text-center">
-            <div className="mt-10">
+            <div className="">
                 <h2 className="text-3xl font-bold">ABOUT US</h2>
                 <p className="font-semibold text-md mt-10">G&G Infra Projects is a certified and experienced service provider in telecom<br />infrastructure. We are proud to be associated with leading clients.</p>
             </div>
@@ -12,7 +12,7 @@ export default function AboutClients() {
                 <Marquee />
             </div>
             <div>
-                <h3 className="font-bold text-2xl mt-32 mb-8">Certified by</h3>
+                <h3 className="font-bold text-2xl mt-24 mb-8">Certified by</h3>
                 <div className="flex flex-col items-center gap-7">
                     <div className="border-b border-primary-black-100 w-fit">
                         <p className="font-semibold text-md py-2"><span className="border-b-2 border-primary-blue-100">ISO 9001</span>:2023-24 Certificated</p>
