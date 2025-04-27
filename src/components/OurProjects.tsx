@@ -40,21 +40,21 @@ export default function OurProjects() {
     ]
 
     return (
-        <div className="w-full mt-10">
-            <h2 className="text-4xl font-bold text-center">Our Projects</h2>
-            <div className='w-fit mx-auto'>
+        <div className="w-full mt-10 px-4 sm:px-6 md:px-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-10">Our Projects</h2>
+            <div className='w-full max-w-7xl mx-auto'>
                 {ourprojects.map((service, index) => (
-                    <div key={index} className={`flex ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} bg-white border-b py-10 px-32 justify-between`}>
-                        <div className="w-3/6 p-6">
-                            <h2 className="text-3xl font-semibold mb-4">{service.title}</h2>
-                            <p className="text-gray-600">{service.description}</p>
-                            {service.subtitleone && <h2 className="text-xl font-semibold mt-4">{service.subtitleone}</h2>}
-                            {service.subdescriptionone && <p className="text-gray-600">{service.subdescriptionone}</p>}
-                            {service.subtitletwo && <h2 className="text-xl font-semibold mt-4">{service.subtitletwo}</h2>}
-                            {service.subdescriptiontwo && <p className="text-gray-600">{service.subdescriptiontwo}</p>}
+                    <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} bg-white border-b py-6 sm:py-8 md:py-10 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 gap-6 md:gap-8 lg:gap-12 justify-between`}>
+                        <div className="w-full md:w-3/5 lg:w-3/5">
+                            <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 md:mb-4">{service.title}</h2>
+                            <p className="text-gray-600 text-sm sm:text-base">{service.description}</p>
+                            {service.subtitleone && <h2 className="text-lg sm:text-xl font-semibold mt-4">{service.subtitleone}</h2>}
+                            {service.subdescriptionone && <p className="text-gray-600 text-sm sm:text-base">{service.subdescriptionone}</p>}
+                            {service.subtitletwo && <h2 className="text-lg sm:text-xl font-semibold mt-4">{service.subtitletwo}</h2>}
+                            {service.subdescriptiontwo && <p className="text-gray-600 text-sm sm:text-base">{service.subdescriptiontwo}</p>}
                         </div>
-                        <div className="w-2/6 bg-gray-200">
-                            <img src={service.image} alt={service.title} className="w-fit object-cover" />
+                        <div className="w-full md:w-2/5 lg:w-2/5">
+                            <img src={service.image} alt={service.title} className="w-full h-auto object-cover rounded-md shadow-md" />
                         </div>
                     </div>
                 ))}
