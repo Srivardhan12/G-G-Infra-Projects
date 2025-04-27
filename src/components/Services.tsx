@@ -35,7 +35,7 @@ const oandm = [
 
 export default function Services() {
     return (
-        <div className="flex flex-col items-center mt-20">
+        <div className="flex flex-col sm:items-center px-5 md:lg:xl:2xl:px-0 mt-20">
             <h3 className="text-3xl font-bold uppercase">Our Services</h3>
             <div className="sm:flex gap-52">
                 <div className="mt-10 flex flex-col">
