@@ -5,6 +5,7 @@ import opticalfiber from "../assets/opticalfiber.png";
 import installationcommissioning from "../assets/installation.png";
 import cow from "../assets/cow.png";
 import { useEffect } from "react";
+import { TextAnimate } from "./magicui/text-animate";
 
 export default function OandM() {
 
@@ -47,7 +48,11 @@ export default function OandM() {
 
   return (
     <div className="w-full mt-10 px-4 sm:px-6 md:px-8">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-10">Our Projects</h2>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-10">
+        <TextAnimate by="character">
+          Our Services
+        </TextAnimate>
+      </h2>
       <div className='w-full max-w-7xl mx-auto'>
         {oandm.map((service, index) => (
           <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} bg-white border-b py-6 sm:py-8 md:py-10 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 gap-6 md:gap-8 lg:gap-12 justify-between`}>

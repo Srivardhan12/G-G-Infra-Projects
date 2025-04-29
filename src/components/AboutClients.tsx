@@ -1,10 +1,15 @@
+import { TextAnimate } from "./magicui/text-animate";
 import Marquee from "./Marquee";
 
 export default function AboutClients() {
     return (
         <div className="text-center">
             <div className="">
-                <h2 className="text-3xl font-bold">ABOUT US</h2>
+                <h2 className="text-3xl font-bold">
+                    <TextAnimate animation="fadeIn" by="line" as="p" delay={0.2}>
+                        ABOUT US
+                    </TextAnimate>
+                </h2>
                 <p className="font-semibold text-md mt-10">G&G Infra Projects is a certified and experienced service provider in telecom<br />infrastructure. We are proud to be associated with leading clients.</p>
             </div>
             <div>
