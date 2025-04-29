@@ -37,7 +37,7 @@ export default function Home() {
                             </TextAnimate>
                         </h1>
 
-                        <p className="font-semibold text-md mt-7 text-primary-white-200 w-4/10 text-center">
+                        <p className="font-semibold text-md mt-7 pb-10 text-primary-white-200 w-4/10 lg:w-1/5 text-center">
                             <TextAnimate>
                                 Your trusted partner in telecom infrastructure solutions.
                             </TextAnimate>
@@ -45,7 +45,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex justify-center text-center px-8 mt-10">
-                        <p className="w-fit pb-5 border-b-4 border-primary-blue-100 text-primary-white-200 font-medium text-md">
+                        <p className="w-fit lg:w-3/5 pb-5 border-b-4 border-primary-blue-100 text-primary-white-200 font-medium text-md">
                             With over 5 years of industry experience, we specialize in a wide range of telecom services, trusted by multiple leading clients across
                             <span className="bg-primary-blue-100 px-1 py-0.5 text-primary-black-100 ml-1">India.</span>
                         </p>
