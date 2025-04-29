@@ -37,7 +37,7 @@ export default function Home() {
                             </TextAnimate>
                         </h1>
 
-                        <p className="font-semibold text-md mt-7 pb-10 text-primary-white-200 w-4/10 lg:w-1/5 text-center">
+                        <p className="font-semibold text-md mt-7 pb-10 text-primary-white-200 w-8/10 lg:w-1/5 md:1/5 text-center">
                             <TextAnimate>
                                 Your trusted partner in telecom infrastructure solutions.
                             </TextAnimate>
