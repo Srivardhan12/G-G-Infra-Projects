@@ -44,11 +44,17 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="flex justify-center text-center px-8 mt-10">
-                        <p className="w-fit lg:w-3/5 pb-5 border-b-4 border-primary-blue-100 text-primary-white-200 font-medium text-md">
-                            With over 5 years of industry experience, we specialize in a wide range of telecom services, trusted by multiple leading clients across
+                    <div className="flex flex-col items-center justify-center text-center px-8 mt-6">
+                        <p className="w-fit lg:w-3/5 pb-5 border-b-4 border-primary-blue-100 text-primary-white-200 font-medium text-xl">
+                            With Over 5 Years of Industry Experience, We Specialize In a Wide Range of Telecom Services, Trusted by Multiple Leading Clients Across
                             <span className="bg-primary-blue-100 px-1 py-0.5 text-primary-black-100 ml-1">India.</span>
                         </p>
+                        <p className="text-primary-white-100 my-5 font-semibold">Certified by</p>
+                        <div className="flex w-full justify-center text-primary-white-200 mr-7">
+                            <p className="font-medium">ISO 2023-24</p>
+                            <p className="font-medium px-16">E - Stac</p>
+                            <p className="font-medium">H - Stac</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export default function AboutClients() {
                 <h3 className="font-semibold text-2xl mt-16 mb-8">Our Clients</h3>
                 <Marquee />
             </div>
-            <div>
+            {/* <div>
                 <h3 className="font-bold text-2xl mt-24 mb-8">Certified by</h3>
                 <div className="flex flex-col items-center gap-7">
                     <div className="border-b border-primary-black-100 w-fit">
@@ -32,7 +32,7 @@ export default function AboutClients() {
                     </div>
                 </div>
                 <p className="font-semibold text-md mt-5">We are also enrolled with <span className="underline decoration-primary-blue-100">MSME</span>, <span className="underline decoration-primary-blue-100">Labour laws</span>, <span className="underline decoration-primary-blue-100">ESIP&PF regulations</span></p>
-            </div>
+            </div> */}
         </div>
     )
 }
