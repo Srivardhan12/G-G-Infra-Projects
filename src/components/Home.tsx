@@ -44,7 +44,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="flex flex-col items-center justify-center text-center px-8 mt-6">
+                    <div className="flex flex-col items-center justify-center text-center px-5 mt-6">
                         <p className="w-fit lg:w-3/5 pb-5 border-b-4 border-primary-blue-100 text-primary-white-200 font-medium text-xl">
                             With Over 5 Years of Industry Experience, We Specialize In a Wide Range of Telecom Services, Trusted by Multiple Leading Clients Across
                             <span className="bg-primary-blue-100 px-1 py-0.5 text-primary-black-100 ml-1">India.</span>

@@ -23,13 +23,13 @@ const oandm = [
         title: "Fault Management"
     },
     {
-        title: "Installation & Commissioning"
-    },
-    {
         title: "Optical Fiber Cable"
     },
     {
         title: "COW Site Maintenance"
+    },
+    {
+        title: "Installation & Commissioning"
     }
 ]
 

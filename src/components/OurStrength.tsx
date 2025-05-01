@@ -11,7 +11,7 @@ export default function OurStrength() {
                     Mr. Upendar Chithaluri
                 </TextAnimate>
             </h4>
-            <p className="w-9/10 lg:w-3/5 mx-auto">Having 18 years of experience in telecom and road infra work. Also major experience in fibre laying work and new built site installation for telecom operators.</p>
+            <p className="w-9/10 lg:w-3/5 mx-auto">Having 18 years of experience in telecom and road infra work. Also major experience in fiber laying work and new built site installation for telecom operators.</p>
         </div>
     )
 }

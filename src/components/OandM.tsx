@@ -15,9 +15,9 @@ export default function OandM() {
 
   const oandm = [
     {
-      title: "Fault Management",
-      description: "Our Telecom Services ensure seamless network performance through a structured approach: Detection, Diagnosis, Correlation, Restoration, and Resolution — minimizing downtime and optimizing communication infrastructure efficiency.",
-      image: faultmanagement
+      title: "Spare Management",
+      description: "We deliver end-to-end telecom operations, from infrastructure setup to maintenance, logistics, and cost optimization, ensuring reliable connectivity, efficient service management, and seamless technology integration.",
+      image: sparemanagement
     },
     {
       title: "Preventive Maintenance",
@@ -25,14 +25,9 @@ export default function OandM() {
       image: preventivemaintenance
     },
     {
-      title: "Spare Management",
-      description: "We deliver end-to-end telecom operations, from infrastructure setup to maintenance, logistics, and cost optimization, ensuring reliable connectivity, efficient service management, and seamless technology integration.",
-      image: sparemanagement
-    },
-    {
-      title: "Installation & Commissioning",
-      description: "We provide expert installation and commissioning of microwave links, ensuring seamless connectivity between outdoor antennas and indoor units with precise configuration, optimized performance, and reliable network integration.",
-      image: installationcommissioning
+      title: "Fault Management",
+      description: "Our Telecom Services ensure seamless network performance through a structured approach: Detection, Diagnosis, Correlation, Restoration, and Resolution — minimizing downtime and optimizing communication infrastructure efficiency.",
+      image: faultmanagement
     },
     {
       title: "Optical Fiber Cable",
@@ -43,6 +38,11 @@ export default function OandM() {
       title: "COW Site Maintenance",
       description: "We provide COW (Cell on Wheels) deployment for emergency and temporary coverage, ensuring rapid network restoration, seamless connectivity, and reliable mobile communication in critical situations.",
       image: cow
+    },
+    {
+      title: "Installation & Commissioning",
+      description: "We provide expert installation and commissioning of microwave links, ensuring seamless connectivity between outdoor antennas and indoor units with precise configuration, optimized performance, and reliable network integration.",
+      image: installationcommissioning
     }
   ];
 
