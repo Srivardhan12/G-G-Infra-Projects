@@ -3,43 +3,34 @@ import { Link } from "react-router-dom"
 
 const ourprojects = [
     {
-        title: "Small Cell Hosting",
-        link: "/ourprojects"
+        title: "Small Cell Hosting"
     },
     {
-        title: "Fiber",
-        link: "/ourprojects"
+        title: "Fiber"
     },
     {
-        title: "FTTH (Fiber To The Home)",
-        link: "/ourprojects"
+        title: "FTTH (Fiber To The Home)"
     }
 ]
 
 const oandm = [
     {
-        title: "Fault Management",
-        link: "/oandm"
+        title: "Spare Management"
     },
     {
-        title: "Preventive Maintenance",
-        link: "/oandm"
+        title: "Preventive Maintenance"
     },
     {
-        title: "Spare Management",
-        link: "/oandm"
+        title: "Fault Management"
     },
     {
-        title: "Installation & Commissioning",
-        link: "/oandm"
+        title: "Installation & Commissioning"
     },
     {
-        title: "Optical Fiber Cable",
-        link: "/oandm"
+        title: "Optical Fiber Cable"
     },
     {
-        title: "COW Site Maintenance",
-        link: "/oandm"
+        title: "COW Site Maintenance"
     }
 ]
 
@@ -52,7 +43,7 @@ export default function Services() {
                     <h4 className="font-semibold text-xl py-2 rounded bg-primary-blue-100 text-primary-black-100 text-center mb-2">Our Projects</h4>
                     {ourprojects.map((item, index) => (
                         <div key={index} className="">
-                            <Link to={item.link}>
+                            <Link to="/ourprojects">
                                 <p className="font-medium text-lg border-b pt-2 pb-1">{item.title}</p>
                             </Link>
                         </div>
@@ -65,7 +56,7 @@ export default function Services() {
                     <h4 className="font-semibold text-xl py-2 rounded bg-primary-blue-100 text-primary-black-100 text-center mb-2">O&M</h4>
                     {oandm.map((item, index) => (
                         <div key={index} className="">
-                            <Link to={item.link}>
+                            <Link to="/oandm">
                                 <p className="font-medium text-lg border-b pt-2 pb-1">{item.title}</p>
                             </Link>
                         </div>
