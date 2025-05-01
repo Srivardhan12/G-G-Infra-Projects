@@ -47,9 +47,6 @@ export default function Services() {
                             </Link>
                         </div>
                     ))}
-                    {/* <Link to="/ourprojects">
-                        <InteractiveHoverButton className="text-center py-2 text-primary-black-100 bg-primary-blue-400 mt-5 font-semibold text-md rounded w-full">Know More</InteractiveHoverButton>
-                    </Link> */}
                 </div>
                 <div className="mt-10 flex flex-col">
                     <h4 className="font-semibold text-xl py-2 rounded bg-primary-blue-100 text-primary-black-100 text-center mb-2">O&M</h4>
@@ -60,9 +57,6 @@ export default function Services() {
                             </Link>
                         </div>
                     ))}
-                    {/* <Link to="/oandm" className="">
-                        <InteractiveHoverButton className="text-center py-2 text-primary-black-100 bg-primary-blue-400 mt-5 font-semibold text-md rounded w-full">Know More</InteractiveHoverButton>
-                    </Link> */}
                 </div>
             </div>
         </div >
