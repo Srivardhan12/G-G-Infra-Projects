@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-// import { InteractiveHoverButton } from "./magicui/interactive-hover-button"
 
 const ourprojects = [
     {

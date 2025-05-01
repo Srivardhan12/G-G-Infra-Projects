@@ -8,7 +8,7 @@ export default function OurStrength() {
             <img src={img} alt="image" className="mx-auto rounded-full border-2 w-56 border-primary-blue-100" />
             <h4 className="border-b-4 w-fit font-bold text-2xl border-primary-blue-100 mx-auto my-5 px-5">
                 <TextAnimate animation="blurInUp" by="word" delay={0.3}>
-                    Mr. Upender Chithaluri
+                    Mr. Upendar Chithaluri
                 </TextAnimate>
             </h4>
             <p className="w-9/10 lg:w-3/5 mx-auto">Having 18 years of experience in telecom and road infra work. Also major experience in fibre laying work and new built site installation for telecom operators.</p>
