@@ -2,6 +2,7 @@
 // import ellipseTwo from "../assets/ellipse2.png"
 import celltowerVideo from "../assets/celltower.mp4"
 import { TextAnimate } from "./magicui/text-animate"
+import logo from "../assets/logo.png"
 
 export default function Home() {
     return (
@@ -25,7 +26,8 @@ export default function Home() {
             {/* Content */}
             <div className="relative z-20 h-full">
                 <div>
-                    <p className="text-primary-white-100 font-bold text-xl p-5 md:px-14">G&G</p>
+                    {/* <p className="text-primary-white-100 font-bold text-xl p-5 md:px-14">G&G</p> */}
+                    <img src={logo} className="w-15 filter invert brightness-[2] m-2 mx-4" alt="logo" />
                 </div>
 
                 {/* Main content container with 70% height */}
